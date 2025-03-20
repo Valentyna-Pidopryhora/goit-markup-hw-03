@@ -21,6 +21,9 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
 
 .container {
   max-width: 1158px;
@@ -130,11 +133,12 @@ p {
   background-color: #4d5ae5;
   cursor: pointer;
   display: block;
-  padding: 16px 32px 16px 32px;
   margin: 0 auto;
   border-radius: 4px;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
 }
 
 .section-one-button:focus {
@@ -143,6 +147,10 @@ p {
 
 .section-one-button:hover {
   background-color: #404bbf;
+}
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -160,8 +168,6 @@ p {
 .section-two-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .section-two-item {
   flex-basis: calc((100% - 72px) / 4);
@@ -194,7 +200,7 @@ p {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   margin: 0 auto;
 }
 .section-three-list {
