@@ -200,8 +200,8 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
   margin: 0 auto;
+  margin-bottom: 72px;
 }
 .section-three-list {
   display: flex;
